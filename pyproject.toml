@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "fma-hiclass"
+version = "0.1.0"
+description = ""
+authors = ["sette <bruno.sette@ufscar.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<=3.11.4"
+scikit-learn = "^1.4.1.post1"
+tqdm = "^4.66.2"
+jupyterlab = "^4.1.5"
+jupyter = "^1.0.0"
+jupyterlab-git = "^0.50.0"
+xgboost = "^2.0.3"
+numpy = "^1.26.4"
+hiclass = "4.7.2"
+pandas = "2.2.1"
+tensorflow = "^2.16.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

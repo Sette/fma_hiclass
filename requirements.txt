@@ -1,0 +1,6 @@
+tensorflow==2.12.0
+scikit-learn
+pandas==2.2.1
+tqdm
+pickle
+git+https://github.com/scikit-learn-contrib/hiclass.git
